@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PetLock | Acceso Inteligente para tu Mascota</title>
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="hero">
+<div class="container">
+<nav class="navbar">
+<div class="logo">PetLock</div>
+<ul class="nav-links">
+<li><a href="#caracteristicas">Características</a></li>
+<li><a href="#como-funciona">Cómo Funciona</a></li>
+<li><a href="#pre-orden">Pre-Ordenar</a></li>
+</ul>
+</nav>
+<div class="hero-content">
+<h1>El Fin de Levantarte a Abrir la Puerta.</h1>
+<p class="tagline">PetLock: Acceso automatizado y sin esfuerzo para tu mejor amigo. Quédate cómodo, nosotros nos encargamos.</p>
+<a href="#pre-orden" class="btn primary-btn">¡Pre-Ordena el Tuyo Hoy!</a>
+</div>
+<div class="hero-image">
+<img src="prototipo.png" alt="Dispositivo PetLock instalado en una pared junto a una puerta.">
+<p class="small-text">*El diseño final del producto puede variar.</p>
+</div>
+</div>
+</header>
+<section id="caracteristicas" class="features-section">
+<div class="container">
+<h2>¿Por qué PetLock es la Solución?</h2>
+<div class="features-grid">
+<div class="feature-card">
+<span class="icon">🛋️</span>
+<h3>Máxima Comodidad</h3>
+<p>No más interrupciones. Controla el acceso de tu mascota sin tener que levantarte de la cama o el sofá.</p>
+</div>
+<div class="feature-card">
+<span class="icon">🧠</span>
+<h3>Sensor Inteligente</h3>
+<p>Nuestro sensor detecta la proximidad de tu mascota y actúa automáticamente, sin necesidad de collares especiales.</p>
+</div>
+<div class="feature-card">
+<span class="icon">✈️</span>
+<h3>Tranquilidad en Ausencia</h3>
+<p>Permite que tu mascota se mueva entre habitaciones o al exterior incluso cuando no estás en casa. ¡Libertad garantizada!</p>
+</div>
+</div>
+</div>
+</section>
+<section id="pre-orden" class="cta-section">
+<div class="container">
+<h2>Únete a la Revolución de Acceso para Mascotas.</h2>
+<p>Sé uno de los primeros en experimentar la comodidad. Pre-ordena PetLock con un descuento especial de lanzamiento.</p>
+<form action="#" method="POST" class="cta-form">
+<input type="email" placeholder="Introduce tu correo electrónico" required>
+<button type="submit" class="btn secondary-btn">Asegura tu Descuento</button>
+</form>
+<p class="small-text">Recibirás una notificación cuando PetLock esté listo para su envío.</p>
+</div>
+</section>
+<footer>
+<div class="container">
+<p>&copy; 2025 PetLock. Todos los derechos reservados.</p>
+<div class="footer-links">
+<a href="#">Términos y Condiciones</a>
+<a href="#">Política de Privacidad</a>
+</div>
+</div>
+</footer>
+</body>
+</html>
+ 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PetLock | Acceso Inteligente para tu Mascota</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+
+        /* Variables CSS para consistencia */
+
+        :root {
+
+            --primary-color: #000; /* Negro para un look Nike */
+
+            --secondary-color: #007bff; /* Azul vibrante para acentos */
+
+            --text-color: #333;
+
+            --light-bg: #f5f5f5;
+
+            --white-bg: #ffffff;
+
+            --gray-border: #e0e0e0;
+
+            --max-width: 1200px;
+
+            --font-family: 'Inter', sans-serif; 
+
+        }
+
+        /* Reset Básico */
+
+        * {
+
+            box-sizing: border-box;
+
+            margin: 0;
+
+            padding: 0;
+
+        }
+
+        body {
+
+            font-family: var(--font-family);
+
+            line-height: 1.6;
+
+            color: var(--text-color);
+
+            background-color: var(--white-bg);
+
+            scroll-behavior: smooth;
+
+        }
+
+        /* Utilidad para Centrar Contenido */
+
+        .container {
+
+            max-width: var(--max-width);
+
+            margin: auto;
+
+            padding: 0 25px;
+
+            overflow: hidden;
+
+        }
+
+        /* === TIPOGRAFÍA === */
+
+        h1 {
+
+            font-size: 4.5em; /* Más grande y audaz */
+
+            font-weight: 800;
+
+            margin-bottom: 0.3em;
+
+            line-height: 1.1;
+
+            letter-spacing: -0.03em;
+
+        }
+
+        h2 {
+
+            font-size: 3em;
+
+            font-weight: 700;
+
+            margin-bottom: 1em;
+
+            text-align: center;
+
+            color: var(--primary-color);
+
+            line-height: 1.2;
+
+            letter-spacing: -0.02em;
+
+        }
+
+        h3 {
+
+            font-size: 1.8em;
+
+            font-weight: 600;
+
+            margin-bottom: 0.8em;
+
+            color: var(--primary-color);
+
+        }
+
+        p {
+
+            font-size: 1.1em;
+
+            margin-bottom: 1em;
+
+            color: #555;
+
+        }
+
+        .tagline {
+
+            font-size: 1.5em;
+
+            margin-bottom: 2em;
+
+            color: #666;
+
+            font-weight: 400;
+
+        }
+
+        /* === BOTONES === */
+
+        .btn {
+
+            display: inline-block;
+
+            padding: 15px 35px; /* Más padding para un look premium */
+
+            font-size: 1.1em;
+
+            font-weight: 600;
+
+            text-decoration: none;
+
+            border-radius: 50px;
+
+            transition: all 0.3s ease;
+
+            border: 2px solid transparent;
+
+            cursor: pointer;
+
+            text-transform: uppercase;
+
+            letter-spacing: 1px;
+
+            text-align: center;
+
+        }
+
+        .primary-btn {
+
+            background: var(--primary-color);
+
+            color: white;
+
+            border-color: var(--primary-color);
+
+        }
+
+        .primary-btn:hover {
+
+            background: #333;
+
+            transform: translateY(-3px);
+
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+
+        }
+
+        .secondary-btn {
+
+            background: var(--secondary-color);
+
+            color: white;
+
+            border-color: var(--secondary-color);
+
+        }
+
+        .secondary-btn:hover {
+
+            background: #0056b3;
+
+            transform: translateY(-3px);
+
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+
+        }
+
+        .outline-btn {
+
+            background: transparent;
+
+            color: var(--primary-color);
+
+            border-color: var(--primary-color);
+
+        }
+
+        .outline-btn:hover {
+
+            background: var(--primary-color);
+
+            color: white;
+
+            transform: translateY(-3px);
+
+        }
+
+        /* === NAVEGACIÓN (NAVBAR) === */
+
+        .navbar {
+
+            display: flex;
+
+            justify-content: space-between;
+
+            align-items: center;
+
+            padding: 30px 0;
+
+            position: sticky;
+
+            top: 0;
+
+            z-index: 1000;
+
+            background-color: var(--white-bg);
+
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+
+        }
+
+        .logo {
+
+            font-size: 2em;
+
+            font-weight: 800;
+
+            color: var(--primary-color);
+
+            text-transform: uppercase;
+
+            letter-spacing: 2px;
+
+        }
+
+        .nav-links {
+
+            list-style: none;
+
+            display: flex;
+
+        }
+
+        .nav-links li {
+
+            margin-left: 40px;
+
+        }
+
+        .nav-links a {
+
+            text-decoration: none;
+
+            color: var(--text-color);
+
+            font-weight: 600;
+
+            transition: color 0.3s;
+
+            position: relative;
+
+        }
+
+        .nav-links a::after {
+
+            content: '';
+
+            position: absolute;
+
+            left: 0;
+
+            bottom: -5px;
+
+            width: 0;
+
+            height: 2px;
+
+            background-color: var(--secondary-color);
+
+            transition: width 0.3s ease;
+
+        }
+
+        .nav-links a:hover::after {
+
+            width: 100%;
+
+        }
+
+        .nav-links a:hover {
+
+            color: var(--secondary-color);
+
+        }
+
+
+        /* === HERO SECTION === */
+
+        .hero {
+
+            background: var(--light-bg);
+
+            padding: 100px 0 80px;
+
+            text-align: center;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            flex-direction: column;
+
+        }
+
+        .hero-content {
+
+            max-width: 900px;
+
+            margin-bottom: 50px;
+
+        }
+
+        .hero-image img {
+
+            max-width: 90%;
+
+            height: auto;
+
+            border-radius: 12px;
+
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+
+            object-fit: cover;
+
+        }
+
+        .hero-image {
+
+            display: flex;
+
+            flex-direction: column;
+
+            align-items: center;
+
+        }
+
+        /* === SECCIÓN DE CARACTERÍSTICAS === */
+
+        .features-section {
+
+            padding: 100px 0;
+
+            background: var(--white-bg);
+
+        }
+
+        .features-grid {
+
+            display: grid;
+
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+            gap: 40px;
+
+            margin-top: 60px;
+
+        }
+
+        .feature-card {
+
+            background: var(--light-bg);
+
+            padding: 40px;
+
+            border-radius: 12px;
+
+            text-align: center;
+
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+
+            transition: transform 0.3s ease;
+
+        }
+
+        .feature-card:hover {
+
+            transform: translateY(-10px);
+
+        }
+
+        .feature-card .icon {
+
+            font-size: 3.5em;
+
+            display: block;
+
+            margin-bottom: 20px;
+
+            color: var(--secondary-color);
+
+        }
+
+        /* === SECCIÓN DE PLANES === */
+
+        .plans-section {
+
+            padding: 100px 0;
+
+            background: var(--light-bg);
+
+        }
+
+        .plans-grid {
+
+            display: grid;
+
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+            gap: 40px;
+
+            margin-top: 60px;
+
+            align-items: stretch;
+
+        }
+
+        .plan-card {
+
+            background: var(--white-bg);
+
+            padding: 40px;
+
+            border-radius: 12px;
+
+            text-align: center;
+
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+
+            display: flex;
+
+            flex-direction: column;
+
+            justify-content: space-between;
+
+            border: 2px solid transparent;
+
+            transition: all 0.3s ease;
+
+        }
+
+        .plan-card.highlight { /* Para destacar un plan */
+
+            border-color: var(--secondary-color);
+
+            box-shadow: 0 12px 30px rgba(0, 123, 255, 0.2);
+
+            transform: translateY(-10px);
+
+        }
+
+        .plan-card h3 {
+
+            color: var(--primary-color);
+
+            margin-bottom: 10px;
+
+            font-size: 2em;
+
+        }
+
+        .plan-card .price {
+
+            font-size: 3.5em;
+
+            font-weight: 700;
+
+            color: var(--primary-color);
+
+            margin-bottom: 10px;
+
+        }
+
+        .plan-card .price small {
+
+            font-size: 0.5em;
+
+            font-weight: 400;
+
+            color: #777;
+
+        }
+
+        .plan-card ul {
+
+            list-style: none;
+
+            margin: 30px 0;
+
+            padding: 0;
+
+            text-align: left;
+
+            flex-grow: 1;
+
+        }
+
+        .plan-card ul li {
+
+            margin-bottom: 10px;
+
+            font-size: 1.05em;
+
+            color: #444;
+
+            display: flex;
+
+            align-items: center;
+
+        }
+
+        .plan-card ul li::before {
+
+            content: '✓';
+
+            color: var(--secondary-color);
+
+            font-weight: 700;
+
+            margin-right: 10px;
+
+            font-size: 1.2em;
+
+        }
+
+        .plan-card .btn-container {
+
+            margin-top: auto; /* Empuja el botón hacia abajo */
+
+            padding-top: 20px;
+
+        }
+
+
+        /* === SECCIÓN DE LLAMADA A LA ACCIÓN (CTA) === */
+
+        .cta-section {
+
+            background: var(--primary-color);
+
+            color: white;
+
+            padding: 100px 0;
+
+            text-align: center;
+
+        }
+
+        .cta-section h2 {
+
+            color: white;
+
+        }
+
+        .cta-form {
+
+            margin-top: 40px;
+
+            display: flex;
+
+            justify-content: center;
+
+            gap: 15px;
+
+            flex-wrap: wrap;
+
+        }
+
+        .cta-form input[type="email"] {
+
+            padding: 15px 25px;
+
+            border: none;
+
+            border-radius: 50px;
+
+            width: 350px;
+
+            font-size: 1.1em;
+
+            outline: none;
+
+            box-shadow: inset 0 2px 5px rgba(0,0,0,0.1);
+
+        }
+
+        .small-text {
+
+            font-size: 0.9em;
+
+            margin-top: 20px;
+
+            opacity: 0.8;
+
+        }
+
+        /* === FOOTER === */
+
+        footer {
+
+            background: #1a1a1a;
+
+            color: #bbb;
+
+            padding: 40px 0;
+
+            font-size: 0.9em;
+
+        }
+
+        footer .container {
+
+            display: flex;
+
+            justify-content: space-between;
+
+            align-items: center;
+
+            flex-wrap: wrap;
+
+        }
+
+        .footer-links a {
+
+            color: #bbb;
+
+            text-decoration: none;
+
+            margin-left: 25px;
+
+            transition: color 0.3s;
+
+        }
+
+        .footer-links a:hover {
+
+            color: var(--secondary-color);
+
+        }
+
+        /* === MEDIA QUERIES (RESPONSIVE DESIGN) === */
+
+        @media (max-width: 992px) {
+
+            h1 {
+
+                font-size: 3.5em;
+
+            }
+
+            h2 {
+
+                font-size: 2.5em;
+
+            }
+
+            .hero-image img {
+
+                max-width: 100%;
+
+            }
+
+        }
+
+        @media (max-width: 768px) {
+
+            .navbar {
+
+                flex-direction: column;
+
+                text-align: center;
+
+                padding: 20px;
+
+            }
+
+            .logo {
+
+                margin-bottom: 15px;
+
+            }
+
+            .nav-links {
+
+                margin-top: 15px;
+
+                padding: 10px 0;
+
+                justify-content: center;
+
+                flex-wrap: wrap;
+
+            }
+
+            .nav-links li {
+
+                margin: 0 15px 10px;
+
+            }
+
+            h1 {
+
+                font-size: 2.8em;
+
+            }
+
+            .tagline {
+
+                font-size: 1.3em;
+
+            }
+
+            .cta-form {
+
+                flex-direction: column;
+
+                align-items: center;
+
+            }
+
+            .cta-form input[type="email"],
+
+            .cta-form button {
+
+                width: 100%;
+
+                max-width: 350px;
+
+            }
+
+            .cta-form button {
+
+                margin-top: 10px;
+
+            }
+
+            footer .container {
+
+                flex-direction: column;
+
+                text-align: center;
+
+            }
+
+            .footer-links {
+
+                margin-top: 15px;
+
+            }
+
+            .footer-links a {
+
+                margin: 0 10px;
+
+            }
+
+        }
+</style>
+</head>
+<body>
+<header class="hero">
+<div class="container">
+<nav class="navbar">
+<div class="logo">PetLock</div>
+<ul class="nav-links">
+<li><a href="#caracteristicas">Beneficios</a></li>
+<li><a href="#planes">Planes</a></li>
+<li><a href="#pre-orden">Pre-Ordenar</a></li>
+</ul>
+</nav>
+<div class="hero-content">
+<h1>Libertad Total. Control Absoluto.</h1>
+<p class="tagline">PetLock: El **sensor inteligente** que resuelve la molestia de **abrir puertas repetidamente**, garantizando el acceso de tu mascota sin que levantes un dedo. 🐶🚪</p>
+<a href="#pre-orden" class="btn primary-btn">Descubre la Comodidad</a>
+</div>
+<div class="hero-image">
+<img src="prototipo.png" alt="Dispositivo PetLock instalado en una pared junto a una puerta.">
+<p class="small-text">Tecnología de detección de proximidad para tu tranquilidad.</p>
+</div>
+</div>
+</header>
+<section id="caracteristicas" class="features-section">
+<div class="container">
+<h2>Diseñado para la vida moderna de tu Mascota.</h2>
+<div class="features-grid">
+<div class="feature-card">
+<span class="icon">🛋️</span>
+<h3>Control Remoto y Automático</h3>
+<p>Funciona con detección automática de presencia o control manual desde tu app. Nunca más interrumpas tu descanso.</p>
+</div>
+<div class="feature-card">
+<span class="icon">🔒</span>
+<h3>Seguridad y Privacidad</h3>
+<p>Establece horarios o permisos de acceso solo para tu mascota. Evita que otros animales entren. Totalmente seguro.</p>
+</div>
+<div class="feature-card">
+<span class="icon">⚡</span>
+<h3>Instalación en Minutos</h3>
+<p>Diseño pulcro y minimalista. Se integra discretamente a cualquier puerta o pared de tu hogar. Sin obras complejas.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="planes" class="plans-section">
+<div class="container">
+<h2>Elige el Nivel de Comodidad que Mereces.</h2>
+<div class="plans-grid">
+<div class="plan-card">
+<div>
+<h3>PetLock GO</h3>
+<p class="small-text">Acceso manual y automático básico.</p>
+<div class="price">$199<small>/unidad</small></div>
+<p>Compra única del hardware.</p>
+</div>
+<ul>
+<li>Detección de Proximidad.</li>
+<li>Apertura/Cierre Automático.</li>
+<li>Control Manual (Botón).</li>
+<li style="color:#aaa;">~~Alertas de Notificación~~</li>
+<li style="color:#aaa;">~~Historial de Actividad~~</li>
+</ul>
+<div class="btn-container">
+<a href="#pre-orden" class="btn outline-btn">Seleccionar Plan</a>
+</div>
+</div>
+<div class="plan-card highlight">
+<div>
+<h3 style="color:var(--secondary-color);">PetLock CONNECT ⭐️</h3>
+<p class="small-text">Control inteligente vía Wi-Fi y App.</p>
+<div class="price">$229<small>/unidad</small></div>
+<p>+ $5.99/mes por servicio App.</p>
+</div>
+<ul>
+<li>Detección de Proximidad.</li>
+<li>Apertura/Cierre Automático.</li>
+<li>Control Remoto por App.</li>
+<li>**Alertas de Notificación** 🔔</li>
+<li>**Historial de Actividad 24/7**</li>
+</ul>
+<div class="btn-container">
+<a href="#pre-orden" class="btn secondary-btn">Más Popular</a>
+</div>
+</div>
+<div class="plan-card">
+<div>
+<h3>Doble Acceso</h3>
+<p class="small-text">Para el patio y la habitación.</p>
+<div class="price">$399<small>/2 unidades</small></div>
+<p>Ahorra al comprar el pack dúo.</p>
+</div>
+<ul>
+<li>Incluye 2 Sensores PetLock.</li>
+<li>Compatible con Plan CONNECT.</li>
+<li>Cobertura total del hogar.</li>
+<li>**Configuración unificada.**</li>
+<li>Soporte Prioritario.</li>
+</ul>
+<div class="btn-container">
+<a href="#pre-orden" class="btn outline-btn">Seleccionar Pack</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="pre-orden" class="cta-section">
+<div class="container">
+<h2>Da el Primer Paso hacia la Libertad.</h2>
+<p>Sé de los primeros en recibir PetLock. Pre-ordena ahora y te notificaremos los descuentos exclusivos.</p>
+<form action="#" method="POST" class="cta-form">
+<input type="email" placeholder="Introduce tu mejor correo electrónico" required>
+<button type="submit" class="btn secondary-btn">¡Quiero mi PetLock!</button>
+</form>
+<p class="small-text">Cientos de dueños de mascotas ya están listos para dejar de levantarse.</p>
+</div>
+</section>
+<footer>
+<div class="container">
+<p>&copy; 2025 PetLock. Acceso Automatizado Inteligente.</p>
+<div class="footer-links">
+<a href="#">Términos</a>
+<a href="#">Privacidad</a>
+<a href="#">Contacto</a>
+</div>
+</div>
+</footer>
+</body>
+</html>
+ 
